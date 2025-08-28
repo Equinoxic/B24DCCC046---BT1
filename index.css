@@ -78,5 +78,8 @@ tr:nth-child(odd) {
   font-size: small;
 }
 #goodbye {
+  font-family: "Great Vibes", Arial, sans-serif;
+  font-size: x-large;
+  font-style: italic;
   text-align: center;
 }
