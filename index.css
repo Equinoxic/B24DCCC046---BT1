@@ -1,0 +1,82 @@
+.page {
+  margin: 20px 30px 20px 30px;
+  padding: 10px;
+  border: 4px solid black;
+  background: linear-gradient(0deg,rgba(255, 205, 120, 1) 0%,
+  rgba(255, 240, 207, 1) 3%, rgba(255, 252, 237, 1) 50%,
+   rgba(255, 240, 207, 1) 97%, rgba(255, 212, 120, 1) 100%);
+}
+
+.welcome {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#list {
+  background-color: wheat;
+  padding: 3px;
+  padding-left: 10px;
+  border-radius: 0 40px;
+}
+#list > ul > li:nth-child(even) {
+  color: purple;
+}
+#list li {
+  transition: transform 0.2s ease;
+}
+#list > ul > li:hover {
+  transform: translateX(20px);
+}
+#list * > * {
+  margin-top: 5px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid rgb(239, 196, 196);
+  padding: 6px;
+}
+tr:nth-child(odd) {
+  background-color: wheat;
+}
+
+.dropdown {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+#tbshow:focus-within .dropdown {
+  opacity: 1;
+}
+#tbshow {
+  margin-top: 20px;
+}
+#tbshow > button {
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: rgb(225, 236, 244);
+  transition: background-color 0.2s ease;
+  border: none;
+}
+#tbshow > button:hover {
+  background-color: lightblue;
+}
+#tbshow > button:active {
+  background-color: rgb(202, 233, 251);
+}
+
+#foot {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+#links {
+  font-size: small;
+}
+#goodbye {
+  text-align: center;
+}
